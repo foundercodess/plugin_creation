@@ -63,7 +63,7 @@ class HomeScreenImages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  ValidateUserPurchasing(merchantKey: '0FCEE2B34796989', clientSecret: '2147483647',);
+    return  ValidateUserPurchasing(merchantKey: 'enter your merchant here', clientSecret: 'enter your client secret',);
   }
 }
 
