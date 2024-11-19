@@ -1,4 +1,4 @@
-## 0.0.1
+## 1.0.0
 
 * TODO: Describe initial release.
 I developers i am Ashutosh Tripathi an passionate flutter developer, 
