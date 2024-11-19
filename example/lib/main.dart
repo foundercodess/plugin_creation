@@ -50,15 +50,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: HomeScreenImages()
+      debugShowCheckedModeBanner: false,
+      home:  const HomeScreenImages()
         // Center(
         //   child: Text('Running on: $_platformVersion\n'),
         // ),
-      ),
     );
   }
 }
@@ -67,9 +63,7 @@ class HomeScreenImages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ImageSlider(),
-    );
+    return  ValidateUserPurchasing(merchantKey: '0FCEE2B34796989', clientSecret: '2147483647',);
   }
 }
 

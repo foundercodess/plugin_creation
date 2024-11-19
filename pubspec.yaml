@@ -1,10 +1,11 @@
 name: plugin_creation
 description: "A new Flutter plugin."
-version: 0.0.1
-homepage:
+version: 1.0.0
+homepage: https://github.com/foundercodess/plugin_creation.git
 
 environment:
-  sdk: ^3.5.4
+  sdk: ^3.4.0
+#  sdk: ^3.5.4
   flutter: '>=3.3.0'
 
 dependencies:
@@ -14,6 +15,7 @@ dependencies:
     sdk: flutter
   web: ^0.5.1
   plugin_platform_interface: ^2.0.2
+  http:
 
 dev_dependencies:
   flutter_test:
